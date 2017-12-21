@@ -1,0 +1,247 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html>
+
+<html ng-app="App" xmlns="http://www.w3.org/1999/xhtml" class="gt-ie8 gt-ie9 not-ie">
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Stingray - iView 360 </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <!-- Open Sans font from Google CDN -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin" rel="stylesheet" type="text/css" />
+
+    <!-- Pixel Admin's stylesheets -->
+    <link href="assets/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/stylesheets/pixel-admin.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/stylesheets/widgets.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/stylesheets/rtl.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/stylesheets/themes.min.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/jquery-1.7.1.min.js"></script>
+    <script src="assets/javascripts/bootstrap.min.js"></script>
+    <script src="assets/javascripts/pixel-admin.min.js"></script>
+    <%--    <script src="Scripts/AnjularJS/angular.min.js"></script>
+    <script src="Scripts/AnjularJS/angular-route.min.js"></script>--%>
+    <script src="Scripts/AnjularJS/angular.js"></script>
+    <script src="Scripts/AnjularJS/angular-sanitize.js"></script>
+    <script src="Scripts/AnjularJS/angular-route.js"></script>
+    <script src="Scripts/AnjularJS/ui-bootstrap-tpls-0.12.0.min.js"></script>
+    <script src="Scripts/AnjularJS/angular-webstorage.min.js"></script>
+    <script src="Scripts/AnjularJS/angular-webstorage-utils.js"></script>
+    <script src="Scripts/app.js"></script>
+
+
+    <script language="javascript" type="text/javascript">
+        function resizeIframe(obj) {
+
+            var body = document.body,
+            html = document.documentElement;
+
+            //var CurrentHeight = 1;
+            //var height = 0;
+            //while (height <= CurrentHeight) {
+            //    height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+            //    obj.style.height = height + 'px';
+            //    CurrentHeight = html.clientHeight;
+            //}
+
+            obj.style.height = Math.max(body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight, obj.contentWindow.document.body.scrollHeight) + 'px';
+
+        }
+    </script>
+
+    <!--[if lt IE 9]>
+		<script src="assets/javascripts/ie.min.js"></script>
+	<![endif]-->
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="theme-default main-menu-animated main-navbar-fixed main-menu-fixed dont-animate-mm-content-sm animate-mm-md animate-mm-lg" data-ng-controller="TabsMenusReportsController">
+    <div>
+
+        <script>var init = [];</script>
+        <!-- Demo script -->
+        <script src="assets/demo/demo.js"></script>
+
+        <!-- / Demo script -->
+
+        <div id="main-wrapper">
+
+
+            <!-- 2. $MAIN_NAVIGATION ===========================================================================
+
+	Main navigation
+-->
+            <div id="main-navbar" class="navbar navbar-inverse" role="navigation">
+                <!-- Main menu toggle -->
+                <button type="button" id="main-menu-toggle"><i class="navbar-icon fa fa-bars icon"></i><span class="hide-menu-text">HIDE MENU</span></button>
+
+                <div class="navbar-inner">
+                    <!-- Main navbar header -->
+                    <div class="navbar-header">
+
+                        <!-- Logo -->
+                        <a href="Default.aspx" class="navbar-brand">
+                            <div>
+                                <img alt="Pixel Admin" src="assets/images/pixel-admin/main-navbar-logo.png" />
+                            </div>
+                            iView 360
+                        </a>
+
+                        <!-- Main navbar toggle -->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse"><i class="navbar-icon fa fa-bars"></i></button>
+
+                    </div>
+                    <!-- / .navbar-header -->
+
+                    <div id="main-navbar-collapse" class="collapse navbar-collapse main-navbar-collapse">
+                        <div>
+                            <ul id="main_tabs" class="nav navbar-nav">
+                                <li data-ng-repeat="Tab in Tabs">
+                                    <a href="#" data-ng-click="changeTabs(Tab.ID)">{{Tab.Title}}</a>
+                                </li>
+                            </ul>
+                            <!-- / .navbar-nav -->
+
+                       
+                            <div class="right clearfix">
+                                <ul class="nav navbar-nav pull-right right-navbar-nav">
+
+                                    <!-- 3. $NAVBAR_ICON_BUTTONS =======================================================================
+
+							Navbar Icon Buttons
+
+							NOTE: .nav-icon-btn triggers a dropdown menu on desktop screens only. On small screens .nav-icon-btn acts like a hyperlink.
+
+							Classes:
+							* 'nav-icon-btn-info'
+							* 'nav-icon-btn-success'
+							* 'nav-icon-btn-warning'
+							* 'nav-icon-btn-danger' 
+-->
+                                  <%--  <li class="nav-icon-btn nav-icon-btn-danger dropdown">
+                                        <a href="#notifications" class="dropdown-toggle" data-toggle="dropdown">
+                                                                                     
+                                            <i class="nav-icon fa fa-bullhorn"></i>
+                                            <span class="small-screen-text">Notifications</span>
+                                        </a>
+
+                                       
+                                        <script>
+                                            init.push(function () {
+                                                $('#main-navbar-notifications').slimScroll({ height: 250 });
+                                            });
+                                        </script>
+                                       
+                                    </li>--%>
+                                    <li>
+                                       <%-- <form class="navbar-form pull-left">
+                                            <input type="text" class="form-control" placeholder="Search" />
+                                        </form>--%>
+                                        <img src="assets/images/pixel-admin/logo.png"  width="100" height="45" style="margin-right: 96px;"/>
+                                    </li>
+                                </ul>
+                                <!-- / .navbar-nav -->
+                            </div>
+                            <!-- / .right -->
+                        </div>
+                    </div>                
+                    <!-- / #main-navbar-collapse -->
+                </div>
+                <!-- / .navbar-inner -->
+            </div>
+            <!-- / #main-navbar -->
+            <!-- /2. $END_MAIN_NAVIGATION -->
+
+            <div id="main-menu" role="navigation">
+                <div id="main-menu-inner">
+                    <div class="menu-content top" id="menu-content-demo">
+                        <!-- Menu custom content demo
+					 CSS:        styles/pixel-admin-less/demo.less or styles/pixel-admin-scss/_demo.scss
+					 Javascript: html/assets/demo/demo.js
+				 -->
+                        <div>
+                            <div class="text-bg"><span class="text-slim">Welcome,</span> <span class="text-semibold">{{Name}}</span></div>
+                            <img src="zain-logo-Copy.png" alt="" class="" />
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-xs btn-primary btn-outline dark"><i class="fa fa-envelope"></i></a>
+                                <%-- <a href="#" class="btn btn-xs btn-primary btn-outline dark"><i class="fa fa-user"></i></a>
+                                <a href="#" class="btn btn-xs btn-primary btn-outline dark"><i class="fa fa-cog"></i></a>--%>
+                                <div ng-click="Logout()" style="cursor:pointer" class="btn btn-xs btn-danger btn-outline dark"><i class="fa fa-power-off"></i></div>
+                            </div>
+                            <a href="#" class="close">&times;</a>
+                        </div>
+                    </div>
+
+                    <ul class="navigation">
+                        <li data-ng-repeat="Menu in Menus" class="{{Menu.LIClass}}">
+                            <a href="#" ng-click='OpenReportInTab(Menu.ID, Menu.URL, Menu.Title)'>
+                                <i class="menu-icon fa {{Menu.PageIcon}}"></i>
+                                <span class="mm-text">{{Menu.Title}}</span>
+                                <span class="{{Menu.WarningMessageClass}}"> {{Menu.WarningMessage}}</span>
+                            </a>
+                            <ul class="mmc-dropdown-delay animated fadeInLeft">
+                                <li data-ng-repeat="ChildMenu in Menu.Children" class='{{ChildMenu.LIClass}}'>
+                                    <a href='#' ng-click='OpenReportInTab(ChildMenu.ID, ChildMenu.URL, ChildMenu.Title)'>
+                                        <i class="menu-icon fa {{ChildMenu.PageIcon}}"></i>
+                                        <span class="mm-text">{{ChildMenu.Title}}</span>
+                                        <span class="{{ChildMenu.WarningMessageClass}}"> {{ChildMenu.WarningMessage}}</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+
+                    <!-- / .navigation -->
+                </div>
+                <!-- / #main-menu-inner -->         
+            </div>
+            <!-- / #main-menu -->
+            <!-- /4. $MAIN_MENU -->
+
+            <div id="content-wrapper">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+
+                </asp:ContentPlaceHolder>
+                <%--<nav class="navbar navbar-default navbar-fixed-bottom" style="z-index:0;">
+                    <div class="container">
+                        <div style="float: right;">
+                            <img src="assets/images/pixel-admin/logo.png"  width="100" height="50"/>
+                        </div>
+                    </div>
+                </nav>--%>
+            </div>
+            <!-- / #content-wrapper -->
+            <!-- / #content-wrapper -->
+            <div id="main-menu-bg"></div>
+        </div>
+        <!-- / #main-wrapper -->
+
+        <!-- Get jQuery from Google CDN -->
+        <!--[if !IE]> -->
+
+                
+        <script type="text/javascript"> window.jQuery || document.write('<script src="Scripts/jquery-1.7.1.min.js">' + "<" + "/script>"); </script>
+
+<%--        <script type="text/javascript"> window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js">' + "<" + "/script>"); </script>--%>
+        <!-- <![endif]-->
+        <!--[if lte IE 9]>
+	<script type="text/javascript"> window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">'+"<"+"/script>"); </script>
+<![endif]-->
+
+
+        <!-- Pixel Admin's javascripts -->
+
+    </div>
+
+    <script type="text/javascript">
+        init.push(function () {
+        })
+
+        window.PixelAdmin.start(init);
+
+    </script>
+</body>
+</html>

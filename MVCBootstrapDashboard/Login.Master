@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html>
+
+<html ng-app="App">
+<head runat="server">
+    <meta name="viewport" content="width=device-width" />
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+
+    <script src="Scripts/AnjularJS/angular.js"></script>
+    <script src="Scripts/AnjularJS/angular-sanitize.js"></script>
+    <script src="Scripts/AnjularJS/angular-route.js"></script>
+    <script src="Scripts/AnjularJS/ui-bootstrap-tpls-0.12.0.min.js"></script>
+    <script src="Scripts/AnjularJS/angular-webstorage.min.js"></script>
+    <script src="Scripts/AnjularJS/angular-webstorage-utils.js"></script>
+    <script src="Scripts/app.js"></script>
+
+</head>
+<body data-ng-controller="TabsMenusReportsController">
+    <div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>

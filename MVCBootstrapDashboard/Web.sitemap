@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode roles="*">
+		<siteMapNode title="FMS Reports" roles="*">
+			<siteMapNode title="Dealers performance control" roles="*" pageIcon="groupkey">
+				<siteMapNode title="Prepaid - Dealers summary report" url="~/FMSReports/DealersPerformance/PREP_DEALERS.aspx" />
+				<siteMapNode title="Prepaid - Dealers summary graph" url="~/FMSReports/DealersPerformance/PREP_DEALERS_SUMMARY_GRAPH.aspx" />
+				<siteMapNode title="Prepaid - Usage per dealer"       url="~/FMSReports/DealersPerformance/PREP_DEALERS_USAGE.aspx" />
+				<siteMapNode title="Prepaid - ARPU per dealer" url="~/FMSReports/DealersPerformance/PREP_DEALERS_ARPU.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Mobile Subsidy Control" roles="*" pageIcon="smartphoneadd">
+				<siteMapNode title="Postpaid report" url="~/FMSReports/Subsidy/Postpaid_main.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Voice High usage reports" roles="*" pageIcon="telephoneerror">
+				<siteMapNode title="Voice MOC Onnet" url="~/FMSReports/HUR/MOCOnnet.aspx" />
+				<siteMapNode title="Voice MOC Offnet" url="~/FMSReports/HUR/MOCOffnet.aspx" />
+				<siteMapNode title="Voice MOC International" url="~/FMSReports/HUR/MOCInternational.aspx" />
+				<siteMapNode title="Voice National Roaming Local" url="~/FMSReports/HUR/NationalRoamingOnnet.aspx" />
+				<siteMapNode title="Voice National Roaming International" url="~/FMSReports/HUR/NationalRoamingInternational.aspx" />
+				<siteMapNode title="Voice Outbound Roaming" url="~/FMSReports/HUR/OutboundRoamer.aspx" />
+				<!--<siteMapNode title="Voice National Roaming Offnet" url="~/FMSReports/HUR/NationalRoamingOffnet.aspx" />-->
+				<siteMapNode title="Zain Unlimited" url="~/FMSReports/HUR/Unlimited.aspx" />
+			</siteMapNode>
+			<siteMapNode title="SMS High usage reports" roles="*" pageIcon="telephoneerror">
+				<siteMapNode title="SMS Local" url="~/FMSReports/HUR/SMSLocalGPRS.aspx" />
+				<siteMapNode title="SMS International Roaming" url="~/FMSReports/HUR/SMSIRGPRS.aspx" />
+				<siteMapNode title="SMS National Roaming" url="~/FMSReports/HUR/SMSNRGPRS.aspx" />
+			</siteMapNode>
+			<siteMapNode title="GPRS High usage reports" roles="*" pageIcon="telephoneerror">
+				<siteMapNode title="3G Data Local" url="~/FMSReports/HUR/Local3G.aspx" />
+				<siteMapNode title="3G Data International Roaming" url="~/FMSReports/HUR/GPRSIR.aspx" />
+				<siteMapNode title="3G Data National Roaming" url="~/FMSReports/HUR/GPRSNR.aspx" />
+				<siteMapNode title="SGSN Report" url="~/FMSReports/HUR/SGSN.aspx" />
+				<siteMapNode title="LTE 4G Report" url="~/FMSReports/HUR/LTE_4G.aspx" />
+				<siteMapNode title="Investigation" url="~/FMSReports/HUR/Investigation.aspx" />
+			</siteMapNode>
+			<siteMapNode title="HUR Data Extraction" roles="*" pageIcon="tick">
+				<siteMapNode title="SMS details report" url="~/FMSReports/HUR/SMSDetails.aspx" />
+				<siteMapNode title="Voice details report" url="~/FMSReports/HUR/VoiceDetails.aspx" />
+				<siteMapNode title="GPRS details report" url="~/FMSReports/HUR/GPRSDetails.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Roaming Reports" roles="*" pageIcon="world">
+				<siteMapNode title="Outbound Roaming (TAPIN FILES)" url="~/FMSReports/TAPIN/TAPINMain.aspx" />
+				<siteMapNode title="Roaming partner violation" url="~/FMSReports/ROAMING_PARTNER/ROAMING_PARTNER_MAIN.aspx" />
+			</siteMapNode>
+			<siteMapNode title="IN Reports" roles="*" pageIcon="money">
+				<siteMapNode title="IN Delta Balance Report" url="~/FMSReports/DeltaBalanceControl/Balance_KPI.aspx" />
+				<siteMapNode title="Unallowed Balance Report" url="~/FMSReports/DeltaBalanceControl/Unallowed_Balance_Report.aspx" />
+				<siteMapNode title="Prepaid main balance issue - LMS" url="~/FMSReports/Expat/EBVR_Main.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Postpaid Reports" roles="*" pageIcon="pagebreak">
+				<siteMapNode title="Credit Limit Breach" url="~/FMSReports/CreditLimit/Breach.aspx" />
+				<siteMapNode title="Vip Warehouse Sales" url="~/FMSReports/NonSpotPayment/NonSpotPayment.aspx" />
+				<siteMapNode title="Daily credit note graph" url="~/FMSReports/CreditNote/Graph.aspx" />
+				<siteMapNode title="Daily credit note amount per subno" url="~/FMSReports/CreditNote/PerSubno.aspx" />
+				<siteMapNode title="Daily credit note amount per user" url="~/FMSReports/CreditNote/PerUser.aspx" />
+				<siteMapNode title="Credit note adjustments" url="~/FMSReports/CreditNote/GraphRA.aspx?" />
+				<siteMapNode title="Cashback control" url="~/FMSReports/Cashback/CashbackReport.aspx" />
+				<!--<siteMapNode title="Enhanced Vanity Control" url="~/FMSReports/Vanity/EnhancedVanityControl.aspx" />-->
+			</siteMapNode>
+			<siteMapNode title="Postpaid Adjustments control" roles="*" pageIcon="money">
+				<siteMapNode title="Adjustments by subno" url="~/FMSReports/Adj/report1.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Recharge KPI" roles="*" pageIcon="moneyadd">
+				<siteMapNode title="Recharge logs" url="~/FMSReports/Recharge/Logs.aspx" />
+				<!--<siteMapNode title="Recharge logs Reconciliation" url="~/FMSReports/Recharge/RechargeLogRecons.aspx" />-->
+			</siteMapNode>
+			<siteMapNode title="Hot Destinations" roles="*" pageIcon="serverlink">
+				<siteMapNode title="TopCountries-SMS" url="~/FMSReports/HotDestinations/TopCountriesSMS.aspx" />
+				<siteMapNode title="TopCountries-Voice" url="~/FMSReports/HotDestinations/TopCountriesVoice.aspx" />
+				<siteMapNode title="Top SMS All Countries" url="~/FMSReports/HotDestinations/TopSMSAllCountries.aspx" />
+				<siteMapNode title="Top Voice All Countries" url="~/FMSReports/HotDestinations/TopVoiceAllCountries.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Prepaid acquisition MEMO" roles="*" pageIcon="pagewhitestack">
+				<siteMapNode title="Acquisition Zoom Channel" url="~/FMSReports/MEMOs/PrepaidAcquisitionMain.aspx" />
+				<siteMapNode title="Acquisition Retail Channel" url="~/FMSReports/MEMOs/PrepaidAcquisitionMainRetail.aspx" />
+				<siteMapNode title="Acquisition Alternative Channel" url="~/FMSReports/MEMOs/PrepaidAcquisitionMainRetailAlternativeChannel.aspx" />
+				<siteMapNode title="Acquisition first call reconciliation" url="~/FMSReports/MEMOs/PrepaidAcquisitionFCReconciliation.aspx" />
+				<siteMapNode title="Acquisition tabs first call count" url="~/FMSReports/MEMOs/PrepaidAcquisitionTabsFCCount.aspx" />
+				<siteMapNode title="Acquisition tabs first call details" url="~/FMSReports/MEMOs/PrepaidAcquisitionTabsFCDetails.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Voucher Management System" roles="*" pageIcon="vcard">
+				<siteMapNode title="Voucher System Log" url="~/FMSReports/VOMS/FMS_VOMS_AGGREGATED.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Simbox Minitoring and Quantification" roles="*" pageIcon="boxpicture">
+				<siteMapNode title="International Interconnect Revenue Impact" url="~/FMSReports/SIMBOX/SIMBOX_REPORT.aspx" />
+				<siteMapNode title="Revenue Impact By Dealer" url="~/FMSReports/SIMBOX/Simbox_Quantification_per_User.aspx" />
+				<siteMapNode title="Daily Loss and Count of MSISDNS" url="~/FMSReports/SIMBOX/Simbox_Quantification_per_Comapny.aspx" />
+				<siteMapNode title="IMEI Based Report" url="~/FMSReports/SIMBOX/EQUIP_GRAPH.aspx" />
+				<siteMapNode title="MVNO Report" url="~/FMSReports/SIMBOX/MVNO.aspx" />
+				<siteMapNode title="iView rule engine statistics" url="~/FMSReports/SIMBOX/iview_statistics.aspx" />
+				<siteMapNode title="TAPIN SIMBOX" url="~/FMSReports/SIMBOX/FMS_TAPIN_SIMBOX.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Internal Fraud process" roles="*" pageIcon="useralert">
+				<siteMapNode title="Internal Fraud Users" url="~/FMSReports/Internal_Fraud_Process/Fraud_Process.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Balance Transfer Controls" roles="*" pageIcon="vector">
+				<siteMapNode title="Balance Transfer KPI" url="~/RAReports/Balance_KPI/Balance_KPI.aspx?q=2" />
+				<siteMapNode title="Balance transfer over 250 SAR" url="~/FMSReports/BT/BTOver250.aspx" />
+				<siteMapNode title="IN Manual Adjustments" url="~/FMSReports/DeltaBalanceControl/IN_Manual_Adjust.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Test lines" roles="*" pageIcon="smartphone">
+				<siteMapNode title="Roaming test lines usage Report" url="~/FMSReports/TestLines/Roaming.aspx" />
+				<siteMapNode title="Prepaid Test Lines Control" url="~/FMSReports/DeltaBalanceControl/Test_number_Balance_KPI.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Inventory" roles="*">
+				<siteMapNode title="Monthly report" url="~/FMSReports/SalesVSStocks/SalesVSStocks.aspx" />
+			</siteMapNode>
+			<siteMapNode title="NRTRDE_HUR_CTL" roles="*">
+				<siteMapNode title="NRTRDE High Usage  Operators" url="~/FMSReports/NRTRDE_HUR_CTL/NRTRDE_HUR_CTL_Operators.aspx" />
+				<siteMapNode title="NRTRDE Historical Data" url="~/FMSReports/NRTRDE_HUR_CTL/NRTRDE_HUR_CTL_HISTORY.aspx" />
+				<siteMapNode title="NRTRDE Operator Trend Analysis" url="~/FMSReports/NRTRDE_HUR_CTL/NRTRDE_OPERATOR_USAGE_TREND.aspx" />
+				<siteMapNode title="NRTRDE High Usage (over 50 SDR Per 24HR )   " url="~/FMSReports/NRTRDE_HUR_CTL/NRTRDE_SDR_CTL.aspx" />
+
+				<siteMapNode title="NRTRDE MOC" url="~/FMSReports/NRTRDE_HUR_CTL_EXTRA/NRTRDE_MOC.aspx" />
+				<siteMapNode title="NRTRDE MTC" url="~/FMSReports/NRTRDE_HUR_CTL_EXTRA/NRTRDE_MTC.aspx" />
+				<siteMapNode title="NRTRDE SMSMO" url="~/FMSReports/NRTRDE_HUR_CTL_EXTRA/NRTRDE_SMSMO.aspx" />
+				<siteMapNode title="NRTRDE SMSMT" url="~/FMSReports/NRTRDE_HUR_CTL_EXTRA/NRTRDE_SMSMT.aspx" />
+				<siteMapNode title="NRTRDE GPRS" url="~/FMSReports/NRTRDE_HUR_CTL_EXTRA/NRTRDE_GPRS.aspx" />
+
+			</siteMapNode>
+			<siteMapNode title="SMSShortCode" roles="*">
+				<siteMapNode title="SMS Short Code" url="~/FMSReports/SMSShortCode/SMSShortCodeReport.aspx" />
+				<siteMapNode title="SMS Short Code Details" url="~/FMSReports/SMSShortCode/SMSShortCodeReportDetails.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Vanity Control" roles="*">
+				<!--<siteMapNode title="Vanity Report" url="~/FMSReports/VanityReport/VanityReport.aspx"  />-->
+
+				<siteMapNode title="Vanity Control (New)" url="~/FMSReports/VanityReport/Vanity_Control_New.aspx"  />
+				<siteMapNode title="Vanity Control (Mazaya)" url="~/FMSReports/VanityReport/Vanity_Control_Mazaya.aspx"  />
+				<siteMapNode title="Vanity Control (Old)" url="~/FMSReports/VanityReport/Vanity_Control_Old.aspx"  />
+				<siteMapNode title="Vanity MNP Control" url="~/FMSReports/VanityReport/Vanity_MNP_Control.aspx"  />
+			</siteMapNode>
+			<siteMapNode title="FMS_BAL_MV_CTL_REP" roles="*">
+				<siteMapNode title="SUMMARY DAILY REPORT" url="~/FMSReports/FMS_BAL_MV_CTL_REP/SUMMARY_DAILY_REPORT.aspx" />
+				<siteMapNode title="Trend graph" url="~/FMSReports/FMS_BAL_MV_CTL_REP/Trend_graph.aspx" />
+				<siteMapNode title="Summary report by high usager" url="~/FMSReports/FMS_BAL_MV_CTL_REP/Summary_rep_by_high_usage.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Bonus" roles="*">
+				<siteMapNode title="IN Dump Daily Report" url="~/FMSReports/Bonus/IN_DUMP_DAILY.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Zain Max" roles="*">
+				<siteMapNode title="ZainMax_Bonus_Amount" url="~/FMSReports/ZainMaxControl_20140901/ZainMax_Bonus_Amount.aspx" />
+				<siteMapNode title="ZainMax_Bonus_Expiry" url="~/FMSReports/ZainMaxControl_20140901/ZainMax_Bonus_Expiry.aspx" />
+				<siteMapNode title="ZainMax_Ericsson" url="~/FMSReports/ZainMaxControl_20140901/ZainMax_Ericsson.aspx" />
+			</siteMapNode>
+
+			<siteMapNode title="Ericsson HUR" roles="*">
+				<siteMapNode title="FMS_SMS_HUR_SUMMARY_TREND" url="~/FMSReports/Ericsson_HUR/FMS_SMS_HUR_SUMMARY_TREND.aspx" />
+				<siteMapNode title="FMS_HUR_SUMMARY_TREND" url="~/FMSReports/Ericsson_HUR/FMS_HUR_SUMMARY_TREND.aspx" />
+			</siteMapNode>
+
+			<siteMapNode title="LMS" roles="*">
+				<siteMapNode title="LMS Suspected Cases" url="~/FMSReports/LMS/LMS_Suspected_Cases.aspx" />
+			</siteMapNode>
+		</siteMapNode>
+		<siteMapNode title="RA Reports" roles="*">
+			<siteMapNode title="Summary Dashboard KPIs" roles="*" pageIcon="Bookmark">
+				<siteMapNode title="RA Summary Dashboard KPIs" url="~/RAReports/Summary_Dashboard_KPI/Summary_Dashboard_KPI.aspx" />
+				<siteMapNode title="RA Summary Dashboard KPIs Screen" url="~/RAReports/Summary_Dashboard_KPI/Summary_Dashboard_KPI_Screen.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Profile reconciliation" roles="*" pageIcon="Bookmark">
+				<siteMapNode title="Profile reconciliation" url="~/RAReports/ProfileRec/BusinessMain.aspx" />
+				<siteMapNode title="Profile reconciliation Excluded Equipids" url="~/RAReports/ProfileRec/Profiling_Discrepancies_Excluded_Euipids.aspx" />
+				<siteMapNode title="Data / Voice Profiling discrepancies in NDS" url="~/RAReports/ProfileRec/Profiling_Discrepancies.aspx" />
+				<siteMapNode title="VAS - SDP Profile Reconciliation" url="~/RAReports/ProfileRec/VAS_SDP_TABS.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Ericsson Trend Analysis" roles="*" pageIcon="Bookmark">
+				<siteMapNode title="Summary" url="~/RAReports/Ericsson_Trend_Analysis/Summary.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Service reconciliation" roles="*" pageIcon="Page">
+				<siteMapNode title="Service reconciliation" url="~/RAReports/ProfileRec/ServiceBusinessMain.aspx" />
+				<siteMapNode title="BB reconciliation trend analysis" url="~/RAReports/BBReconciliation/MainBusiness.aspx" />
+				<siteMapNode title="BB reconciliation trend analysis 2" url="~/RAReports/BBReconciliation/MainBusinessHighCharts.aspx" />
+				<siteMapNode title="BB reconciliation statistics" url="~/RAReports/BBReconciliation/StatisticsBusiness.aspx" />
+				<siteMapNode title="BB reconciliation trend analysis [IT]" url="~/RAReports/BBReconciliation/MainIT.aspx" />
+				<siteMapNode title="DOV Roaming Reconciliation" url="~/RAReports/BBReconciliation/Dov_Roaming.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Status reconciliation" roles="*" pageIcon="vector">
+				<siteMapNode title="Postpaid Control" url="~/RAReports/DINP_Control/DINP_POST_Control.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Finance closing" roles="*" pageIcon="Coins">
+				<siteMapNode title="Final Closing Summary Report" url="~/RAReports/FinanceClosing/SummaryReport.aspx" />
+				<siteMapNode title="RA Postpaid unbilled and billed Revenues" url="~/RAReports/FinanceClosing/PostpaidReport.aspx" />
+				<siteMapNode title="RA Prepaid usage and non usage Revenues" url="~/RAReports/FinanceClosing/PrepaidReport.aspx" />
+				<siteMapNode title="RA Reclassed VAS revenues" url="~/RAReports/FinanceClosing/VasReport.aspx" />
+				<siteMapNode title="RA Roaming cost" url="~/RAReports/FinanceClosing/RoamingCostReport.aspx" />
+				<siteMapNode title="RA Roaming Revenues" url="~/RAReports/FinanceClosing/RoamingRevenueReport.aspx" />
+				<siteMapNode title="RA Interconnect cost" url="~/RAReports/FinanceClosing/InterconnectCostReport.aspx" />
+				<siteMapNode title="RA Interconnect Revenues" url="~/RAReports/FinanceClosing/InterconnectRevenueReport.aspx" />
+				<siteMapNode title="CFO Postpaid unbilled and billed Revenues" url="~/RAReports/CFOFinanceClosing/PostpaidReport.aspx" />
+				<siteMapNode title="CFO Prepaid usage and non usage Revenues" url="~/RAReports/CFOFinanceClosing/PrepaidReport.aspx" />
+				<siteMapNode title="CFO Reclassed VAS revenues" url="~/RAReports/CFOFinanceClosing/VasReport.aspx" />
+				<siteMapNode title="CFO Roaming cost" url="~/RAReports/CFOFinanceClosing/RoamingCostReport.aspx" />
+				<siteMapNode title="CFO Roaming Revenues" url="~/RAReports/CFOFinanceClosing/RoamingRevenueReport.aspx" />
+				<siteMapNode title="CFO Interconnect cost" url="~/RAReports/CFOFinanceClosing/InterconnectCostReport.aspx" />
+				<siteMapNode title="CFO Interconnect Revenues" url="~/RAReports/CFOFinanceClosing/InterconnectRevenueReport.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Free Of Charge validation" roles="*" pageIcon="MoneyDollar">
+				<siteMapNode title="Prepaid Free Of Charge Control" url="~/RAReports/FOC_KPI/Foc_KPI.aspx" />
+				<siteMapNode title="PostPaid Free Of Charge Control" url="~/RAReports/FOC_KPI/Postpaid_Foc_KPI.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Deferred Revenue validation" roles="*" pageIcon="MoneyDollar">
+				<siteMapNode title="IN SIMs Control" url="~/RAReports/RA_INSIMsWHvsIN/Main.aspx" />
+				<siteMapNode title="MBB New Lines" url="~/RAReports/RA_INSIMsWHvsIN/New_MBB_Lines.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Billing assurance" roles="*" pageIcon="MoneyDollar">
+				<siteMapNode title="Unbilled Records in Billing" url="~/RAReports/Billing_assurance_KPI/Billing_assurance_Main.aspx" />
+				<siteMapNode title="Billing Cycle Reconciliation" url="~/RAReports/Billing_assurance_KPI/Aggregated_Billing_Recieveable.aspx" />
+				<siteMapNode title="Printed Invoices Vs Billed " url="~/RAReports/Billing_assurance_KPI/Printed_Invoices_Billed.aspx" />
+				<!--<siteMapNode title="Rejection KPI" url="~/RAReports/RejectionKPI.aspx" />-->
+				<siteMapNode title="Payment Collection Control" url="~/RAReports/Payment_Collection/payment_collection.aspx" />
+				<siteMapNode title="Rejection KPI Control" url="~/RAReports/RejectionKPI_new.aspx" />
+				<siteMapNode title="Weekly Suspension Control" url="~/RAReports/WeeklySuspensionControl.aspx" />
+				<siteMapNode title="Postpaid Bonus Control" url="~/RAReports/Bouns_Retal_Control_KPI/Bouns_KPI.aspx" />
+				<siteMapNode title="Rentals On DISC Control" url="~/RAReports/Bouns_Retal_Control_KPI/Rental_KPI.aspx" />
+				<siteMapNode title="File Sequance Control" url="~/RAReports/File_SequanceControl/File_seq.aspx" />
+				<siteMapNode title="Daily collected files control - Generate reports" url="~/RAReports/FileSequanceControl2/GenerateReports.aspx" />
+				<siteMapNode title="Daily collected files control - Missing file" url="~/RAReports/FileSequanceControl2/MissingFile.aspx" />
+				<siteMapNode title="Daily collected files control - Missing SEQ" url="~/RAReports/FileSequanceControl2/MissingSEQ.aspx" />
+				<siteMapNode title="RA vs. Mediation Daily Report" url="~/RAReports/MediationFilesTrends.aspx" />
+				<siteMapNode title="TAPIN Files Loading Reconciliation " url="~/RAReports/TAPIN_Reconciliation_HC/TAPIN_Reconciliation_HC_KPI.aspx" />
+				<siteMapNode title="RA vs Mediation Daily Report Sync" url="~/RAReports/Mediation_vs_RA_Sync.aspx" />
+				<siteMapNode title="DUPLICATE Check Control" url="~/RAReports/Double_Check_Report_Operation.aspx" />
+				<siteMapNode title="Trunks_HC" url="~/RAReports/Billing_assurance_KPI/Trunks_HC.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Packages trend analysis" roles="*" pageIcon="package">
+				<siteMapNode title="Summary reports" url="~/RAReports/TrendAnalysis/TrendAnalysisReport.aspx" />
+				<siteMapNode title="OverView Packages trend analysis Chart" url="~/RAReports/TrendAnalysis/TotalTrendAnalysisReportchart.aspx" />
+				<siteMapNode title="Detailed packages trend analysis reports" url="~/RAReports/TrendAnalysis/PTARDetails.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Reports" roles="*" pageIcon="reportgo">
+				<siteMapNode title="Mobily Double Leg Summary" url="~/RAReports/MobilyDoubleLegSummary.aspx" />
+				<siteMapNode title="Post Subs Status Trend Summary" url="~/RAReports/PostSubsStatusTrendSummary.aspx" />
+				<siteMapNode title="INDMP Summary Report" url="~/RAReports/INDMP_KPI/INDMP_KPI.aspx" />
+				<siteMapNode title="Credit note adjustments" url="~/FMSReports/CreditNote/GraphRA.aspx" />
+			</siteMapNode>
+			<siteMapNode title="GPRS KPIs" roles="*" pageIcon="world">
+				<!--<siteMapNode title="International roaming reports" url="~/RAReports/GPRSKPIs/IRMain.aspx" />-->
+				<siteMapNode title="International roaming reports" url="~/RAReports/GPRSKPIs/IRMain_MASTER.aspx" />
+				<siteMapNode title="National roaming reports" url="~/RAReports/GPRSKPIs/NRMain.aspx" />
+				<!--<siteMapNode title="Local reports" url="~/RAReports/GPRSKPIs/LocalMain.aspx" />-->
+				<siteMapNode title="In roaming reports" url="~/RAReports/GPRSKPIs/InroamingMain.aspx" />
+				<!--<siteMapNode title="LTE reports" url="~/RAReports/GPRSKPIs/LTEMain.aspx" />-->
+				<siteMapNode title="LTE and Local reports" url="~/RAReports/GPRSKPIs/Local_LTE_Main.aspx" />
+				<siteMapNode title="MMS KPIs" url="~/RAReports/MMS_KPIS/MMS_KPI.aspx" />
+				<!--<siteMapNode title="Upload LTE file" url="~/RAReports/GPRSKPIs/UploadLTE.aspx" />-->
+				<siteMapNode title="Spark Data TopUp" url="~/RAReports/GPRSKPIs/Spark.aspx" />
+			</siteMapNode>
+			<siteMapNode title="SMS KPI" roles="*" pageIcon="email">
+				<siteMapNode title="SMS Zain Covarge KPI Total" url="~/RAReports/SMS_KPI/Local/SMS_KPI_Dashboard_Total.aspx" />
+				<siteMapNode title="SMS Zain Covarge KPI Postpaid " url="~/RAReports/SMS_KPI/Local/SMS_KPI_Dashboard_PostPaid.aspx" />
+				<siteMapNode title="SMS Zain Covarge KPI prepaid"  url="~/RAReports/SMS_KPI/Local/SMS_KPI_Dashboard_PrePaid.aspx" />
+				<siteMapNode title="SMS National KPI Total" url="~/RAReports/SMS_KPI/MobilyNationalRoaming/SMS_KPI_Dashboard_Total.aspx" />
+				<siteMapNode title="SMS National KPI Postpaid " url="~/RAReports/SMS_KPI/MobilyNationalRoaming/SMS_KPI_Dashboard_PostPaid.aspx" />
+				<siteMapNode title="SMS National KPI prepaid"  url="~/RAReports/SMS_KPI/MobilyNationalRoaming/SMS_KPI_Dashboard_PrePaid.aspx" />
+				<siteMapNode title="Outbound SMS MO KPI Total" url="~/RAReports/SMS_KPI/OutBoundSMS/SMS_KPI_Dashboard_Total.aspx" />
+				<siteMapNode title="Outbound SMS MO KPI Postpaid " url="~/RAReports/SMS_KPI/OutBoundSMS/SMS_KPI_Dashboard_PostPaid.aspx" />
+				<siteMapNode title="Outbound SMS MO KPI prepaid"  url="~/RAReports/SMS_KPI/OutBoundSMS/SMS_KPI_Dashboard_PrePaid.aspx" />
+				<siteMapNode title="SMS Inbound KPI Total" url="~/RAReports/SMS_KPI/InboundSMS/SMS_KPI_RPT_INROAMER_Total.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Voice KPI" roles="*" pageIcon="smartphone">
+				<siteMapNode title="International Voice KPI " url="~/RAReports/Voice_KPI/InternationalMain.aspx" />
+				<siteMapNode title="ONNET Voice KPI " url="~/RAReports/Voice_KPI/ONNETMain.aspx" />
+				<siteMapNode title="OFFNET Voice KPI " url="~/RAReports/Voice_KPI/OFFNETMain.aspx" />
+				<siteMapNode title="Voice INROAMER KPI " url="~/RAReports/Voice_KPI/Voice_INROAMER.aspx" />
+				<siteMapNode title="Voice OUTROAMER INTL KPI " url="~/RAReports/Voice_KPI/Voice_OUTROAMER_INTL.aspx" />
+				<siteMapNode title="Voice RCF ROAMER KPI " url="~/RAReports/Voice_KPI/Voice_RCF_ROAMER.aspx" />
+				<siteMapNode title="Voice Natioanal Roaming KPI " url="~/RAReports/Voice_KPI/Voice_National_INROAMER.aspx" />
+				<siteMapNode title="Other Voice KPI " url="~/RAReports/Voice_KPI/OtherVoiceReport.aspx" />
+			</siteMapNode>
+			<siteMapNode title="VAS KPI " roles="*" pageIcon="medalgold2">
+				<siteMapNode title="FHOP KPI" url="~/RAReports/VAS_KPI/FHOP_KPI.aspx" />
+				<siteMapNode title="GN4ME KPI " url="~/RAReports/VAS_KPI/GN4ME_KPI.aspx" />
+				<siteMapNode title="PRBT KPI " url="~/RAReports/VAS_KPI/PRBT_CONTROL.aspx" />
+			</siteMapNode>
+			<siteMapNode title="RIM Validation" roles="*" pageIcon="lorrystart">
+				<siteMapNode title="RIM vs HLR reconciliation" url="~/RAReports/RIM_HLR_Recon/HLRvsRIM_per_Report.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Interconnect KPI " roles="*" pageIcon="shapealigncenter">
+				<siteMapNode title="Interconnect Voice MTC" url="~/RAReports/INTERCONNECT_KPI/INTERCONNECT_MTC_CALLS.aspx" />
+				<siteMapNode title="Interconnect SMSMO " url="~/RAReports/INTERCONNECT_KPI/INTERCONNECT_SMSMO.aspx" />
+				<siteMapNode title="Interconnect SMSMT " url="~/RAReports/INTERCONNECT_KPI/INTERCONNECT_SMSMT.aspx" />
+				<siteMapNode title="Interconnect MMSC " url="~/RAReports/INTERCONNECT_KPI/INTERCONNECT_MMSC.aspx" />
+				<siteMapNode title="Interconnect Video " url="~/RAReports/INTERCONNECT_KPI/INTERCONNECT_Video.aspx" />
+				<siteMapNode title="Interconnect Transit " url="~/RAReports/INTERCONNECT_KPI/TRANSIT_Interconnect.aspx" />
+			</siteMapNode>
+			<siteMapNode title="LTE Dashboard " roles="*" pageIcon="transmit">
+				<siteMapNode title="LTE Volume Per Region" url="~/RAReports/LTEVolume/LTEVolume.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Balance Transfer Control " roles="*" pageIcon="vector">
+				<siteMapNode title="Balance Transfer KPI" url="~/RAReports/Balance_KPI/Balance_KPI.aspx?q=1" />
+			</siteMapNode>
+			<siteMapNode title="IN Balance Movement Control " roles="*" pageIcon="vector">
+				<siteMapNode title="IN Balance Movement" url="~/RAReports/Balance_Movement_control/Balance_movement.aspx" />
+				<siteMapNode title="IN Balance Movement Monthly" url="~/RAReports/Balance_Movement_control/Balance_movement_Monthly.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Margin Assurance" roles="*" pageIcon="vector">
+				<siteMapNode title="National Roaming" url="~/RAReports/Margin_Assurance/National.aspx" />
+				<siteMapNode title="International Roaming" url="~/RAReports/Margin_Assurance/International.aspx" />
+				<siteMapNode title="Value Added Services" url="~/RAReports/Margin_Assurance/VAS.aspx" />
+			</siteMapNode>
+			<!--<siteMapNode title="Postpaid Bonus and Rentals On DISC Control " roles="*" pageIcon="vector">
+        <siteMapNode title="Postpaid Bonus Control" url="~/RAReports/Bouns_Retal_Control_KPI/Bouns_KPI.aspx" />
+        <siteMapNode title="Rentals On DISC Control" url="~/RAReports/Bouns_Retal_Control_KPI/Rental_KPI.aspx" />
+      </siteMapNode>-->
+		</siteMapNode>
+		<siteMapNode title="Operations" roles="*">
+			<siteMapNode title="Reports" roles="*">
+				<siteMapNode title="Table space report" url="~/OpReports/TableSpaces.aspx" />
+			</siteMapNode>
+			<siteMapNode title="Ericsson Migration" roles="*">
+				<siteMapNode title="1K Migration" url="~/OpReports/ONE_K_Migration.aspx" />
+				<siteMapNode title="100K Migration" url="~/OpReports/HK_Migration.aspx" />
+			</siteMapNode>
+		</siteMapNode>
+		<siteMapNode title="System management" roles="SystemAdmin">
+			<siteMapNode title="Add User" url="~/Users/AddUser.aspx" />
+			<siteMapNode title="User List" url="~/Users/List.aspx" />
+			<siteMapNode title="Role Management" url="~/Users/Roles.aspx" />
+			<siteMapNode title="Access Rules" url="~/Users/AccessRules.aspx" />
+		</siteMapNode>
+	</siteMapNode>
+</siteMap>

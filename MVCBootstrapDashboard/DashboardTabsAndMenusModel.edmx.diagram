@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="077550b921074a6fa9d59d8cc8fec67c" Name="Diagram1" ZoomLevel="94">
+        <EntityTypeShape EntityType="DashboardTabsAndMenusModel.Log" Width="1.5" PointX="2.6497126513392257" PointY="29.525825082103641" />
+        <EntityTypeShape EntityType="DashboardTabsAndMenusModel.Menu" Width="1.5" PointX="6.8096838252664007" PointY="7.7939147985511994" />
+        <EntityTypeShape EntityType="DashboardTabsAndMenusModel.Role" Width="1.5" PointX="7.2694684580291931" PointY="19.709286311505963" />
+        <EntityTypeShape EntityType="DashboardTabsAndMenusModel.Tab" Width="1.5" PointX="0.71117624301052484" PointY="12.758478334526755" />
+        <EntityTypeShape EntityType="DashboardTabsAndMenusModel.User" Width="1.5" PointX="1.1846944844278946" PointY="18.651471325499692" />
+        <AssociationConnector Association="DashboardTabsAndMenusModel.FK_Log_User" />
+        <AssociationConnector Association="DashboardTabsAndMenusModel.FK_Menu_Role" />
+        <AssociationConnector Association="DashboardTabsAndMenusModel.FK_Tab_Role" />
+        <AssociationConnector Association="DashboardTabsAndMenusModel.FK_User_Role" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
